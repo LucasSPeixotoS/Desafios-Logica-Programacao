@@ -37,7 +37,7 @@ Desafios para exercitar a lógica e programação Orientada a Objeto.
                + nome : String                        + nome : String
                + cpf : long                           + cpf : long
                + comissao : double                    + valorHora : double
-               + NumeroVendas : long                  + horasTrabalhadas : long
+               + numeroVendas : long                  + horasTrabalhadas : long
                ----------------------------           ----------------------------
                + calcularSalario() : double           + calcularSalario() : double
                
