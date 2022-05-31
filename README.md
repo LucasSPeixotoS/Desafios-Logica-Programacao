@@ -30,3 +30,23 @@ Desafios para exercitar a lógica e programação Orientada a Objeto.
          não haja nenhum Macaco canibal.
       
 # 3 - Funcionário:
+      Considerando o exemplo abaixo feito por um empresa de vendas utilize o conceito de herança.
+      
+                         Vendedor                               Consultor
+               ----------------------------           ----------------------------
+               + nome : String                        + nome : String
+               + cpf : long                           + cpf : long
+               + comissao : double                    + valorHora : double
+               + NumeroVendas : long                  + horasTrabalhadas : long
+               ----------------------------           ----------------------------
+               + calcularSalario() : double           + calcularSalario() : double
+               
+      Regras:
+      a) Crie uma classe mãe chamada funcionário com os atributos nome, cpf(passados no construtor),
+      uma constante para armazenar o valor do salário mínimo e um método abstrato "calcularSalario".
+      
+      b) Vendedores ganham 1 salário mínimo, mais uma comissão por vendas.
+      
+      c) Consultores ganham somente pelas horas que trabalharam.
+      
+      
